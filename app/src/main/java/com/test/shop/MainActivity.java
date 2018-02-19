@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Shop shop = new Shop();
-        Log.d(LOG, shop.orderDescription(3, 0, "ru"));
-        Log.d(LOG, shop.orderDescription(3, 1, "ru"));
-        Log.d(LOG, shop.orderDescription(2, 2, "ru"));
-        Log.d(LOG, shop.orderDescription(11, 0, "ru"));
-        Log.d(LOG, shop.orderDescription(1, 1, "en"));
+        Log.d(LOG, shop.orderDescription(2, 0, "ru"));
+        Log.d(LOG, shop.orderDescription(5, 1, "ru"));
+        Log.d(LOG, shop.orderDescription(1, 2, "en"));
+        Log.d(LOG, shop.orderDescription(5, 0, "ru"));
+        Log.d(LOG, shop.orderDescription(2, 1, "en"));
     }
 }
